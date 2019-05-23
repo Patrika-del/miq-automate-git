@@ -1,0 +1,21 @@
+
+
+
+---
+
+- hosts: localhost
+
+ 
+  tasks: 
+  - name: Create a new user in ManageIQ
+    manageiq_user:
+      userid: 'hgn'
+      name: 'hanane gn'
+      password: 'hananegn'
+      group: 'EvmGroup-user'
+      email: 'hgn@example.com'
+      manageiq_connection:
+        url: 'https://52.174.195.73:8443'
+        username: 'admin'
+        password: 'smartvm'
+        verify_ssl: False
