@@ -19,7 +19,7 @@
         userid: '11fb842c-4811-45b7-92ef-78f4cd0d09ff'
         password: 'TjNi53pnDp4C5fMl7lHkAl4wtzS/tlc1GOpdgfMGn6c='
       manageiq_connection:
-        url: 'https://52.174.195.73:8443/api'
+        url: 'https://52.174.195.73:8443'
         username: 'admin'
         password: 'smartvm'
         verify_ssl: false
